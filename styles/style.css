@@ -1,0 +1,324 @@
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@600;700&family=Edu+NSW+ACT+Foundation:wght@500&family=Poppins:wght@500&display=swap');
+    *{padding: 0%;
+    margin: 0%;
+    
+    font-family: 'Caveat', cursive;
+    font-family: 'Edu NSW ACT Foundation', cursive;
+    font-family: 'Poppins', sans-serif; 
+    box-sizing: border-box;
+}
+.heroin{
+    height: 40px;
+    width: 100%;
+}
+
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    padding-left: 8%;
+    padding-right: 8%;
+    background-color: #F3F1FF;
+   
+    
+
+}
+.logo{
+    color: black;
+    font-size: 35px;
+    letter-spacing: 1px;
+    cursor: pointer;
+}
+span{
+    color: blueviolet ;
+}
+nav ul li{
+    list-style-type: none;
+    display: inline-block;
+    padding: 10px 25px;
+}
+nav ul li a{
+    color: blueviolet;
+    text-decoration: none;
+    font-weight: bold;
+    text-transform: capitalize;
+}
+nav ul li a:hover{
+color: black;
+transition: .4s;
+}
+.btn{
+background-color: blueviolet;
+color: #F3F1FF;
+text-decoration: none;
+font-weight: bold;
+font-weight: bold;
+text-transform: capitalize;
+border: 2px solid transparent;
+padding: 10px 25px;
+border-radius: 30px;
+transition: transform .4s;
+
+}
+.btn:hover{
+    color: black;
+    transform: scale(1.2);
+}
+#banner{
+    height: 100vh;
+    width: 100%;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center; 
+    padding:  40px 0; 
+    background-color: #F3F1FF;
+}
+
+.content{
+    top: 50%;
+    left: 8%;
+    float: left;
+    flex-basis: 60%;
+    padding-left: 8%;
+    
+}
+h1{
+    color: blueviolet;
+    margin: 20px 0px 20px;
+    font-size: 40px;
+
+}
+h3{
+    color: blueviolet;
+    font-size: 25px;
+    margin-bottom: 50px;
+}
+h4{
+    color: black;
+    letter-spacing: 2px;
+    font-size: 20px;
+}
+.newsletter form{
+  width: 380px;
+  max-width: 100%;
+  position: relative;
+
+}
+.newsletter form input:first-child{
+    display: inline-block;
+    width: 100%;
+    padding: 14px 15px 14px 15px;
+    border: 2px solid blueviolet;
+    outline: none;
+    border-radius: 30px;
+}
+.newsletter form input:last-child{
+    position: absolute;
+    display: inline-block;
+    outline: none;
+    border: none;
+    padding: 10px 30px;
+    border-radius: 30px;
+    background-color: blueviolet;
+    color: white;
+    top: 6px;
+    right: 6px;
+}
+.newsletter form input:last-child:hover{
+    color: black;
+    transition: .4s;
+   
+}*/
+.picture{ 
+    float: right;
+    flex-basis: 40%;
+}
+.picture img{
+    width: 300px;
+    height: auto;
+    border-radius: 10px;
+
+
+}
+/*========= About  Section Start==============*/
+.about{
+    width: 100%;
+    padding: 100px;
+    background-color: #F3F1FF;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center; 
+}
+.About-me{
+    flex-basis: 40%;
+}
+.About-me img{
+    width: 350px;
+    height: auto;
+    border-radius: 10px;
+    
+}
+.about-text{
+    width: 550px;
+    flex-basis: 60%;
+}
+.about-text h2{
+    color: blueviolet;
+    font-size: 50px;
+    text-transform: capitalize;
+    margin-bottom: 20px;
+}
+.about-text h5{
+    color: black;
+    font-size: 25px;
+    letter-spacing: 2px;
+    text-transform: capitalize;
+    padding-bottom: 10px;
+}
+.about-text p{
+    color: blueviolet;
+    letter-spacing: 2px;
+    line-height: 28px;
+    font-size: 18px;
+    margin-bottom: 45px;
+}
+button{
+    background-color: blueviolet;
+    color: #F3F1FF;
+text-decoration: none;
+font-weight: bold;
+font-weight: bold;
+text-transform: capitalize;
+border: 2px solid transparent;
+padding: 10px 25px;
+border-radius: 20px;
+transition: transform .4s;
+}
+button:hover{
+    background-color: black;
+    border: 2px solid black;
+    cursor: pointer;
+}
+.service{
+    background: #F3F1FF;
+    width: 100%;
+    padding: 100px 0px;
+ 
+}
+.title h2{
+    color: blueviolet;
+    font-size: 50px;
+    width: 1130px;
+    margin: 30px auto;
+    text-align: center;
+}
+.box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 400px;
+}
+.card{
+    height: 365px;
+    width: 335px;
+    padding: 20px 35px;
+    background:#663399;
+    border-radius: 20px;
+    margin:15px ;
+    position: relative;
+    overflow: hidden;
+    text-align: center;
+    color: aliceblue;
+
+}
+.card i{
+    font-size: 50px;
+    display: block;
+    text-align: center;
+    margin: 25px 0px;
+}
+.card h5{
+    font-size: 23px;
+    margin-bottom: 15px;
+}
+.pra p{
+     font-size: 16px;
+     line-height: 18px;
+     margin-bottom: 20px;
+}
+.pra a{
+    background-color: blueviolet;
+color: #F3F1FF;
+text-decoration: none;
+font-weight: bold;
+font-weight: bold;
+text-transform: capitalize;
+border: 2px solid transparent;
+padding: 8px 20px;
+border-radius: 30px;
+transition: transform .4s;
+}
+.pra a:hover{
+    background-color: black;
+    border: 2px solid black;
+    cursor: pointer;
+}
+.contact{
+    width: 100%;
+    height: 300px;
+    background: #F3F1FF;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+
+}
+.contact a{
+    font-size: 15px;
+}
+.contact .button-two:hover{
+    background-color: black;
+    border: 2px solid black;
+    cursor: pointer;
+}
+.contact p{
+    color: #663399;
+    font-size: 30px;
+    font-weight: bold;
+    margin-bottom: 25px;
+}
+
+.contact .button-two{
+    background-color: blueviolet;
+    color: #F3F1FF;
+    text-decoration: none;
+    font-weight: bold;
+    font-weight: bold;
+    text-transform: capitalize;
+    border: 2px solid transparent;
+    padding: 8px 20px;
+    border-radius: 30px;
+    transition: transform .4s;
+}
+footer{
+    position: relative;
+    width: 100%;
+    height: 300px;
+    background: #F3F1FF;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+footer p{
+    color: blueviolet;
+    font-size: 15px;
+    font-weight: bold;
+    margin-bottom: 20px;
+
+}
+
+  
